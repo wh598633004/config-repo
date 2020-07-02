@@ -16,5 +16,3 @@ server:
   port: 8090
 env:
   test
-label:
-  release
