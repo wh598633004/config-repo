@@ -1,0 +1,13 @@
+zuul:
+  routes:
+#    myProduct:
+#      path: /myProduct/**
+#      serviceId: product
+    product: /myProduct/**
+#  ignored-patterns:
+#    - /**/product/list
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"
